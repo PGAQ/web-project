@@ -7,6 +7,7 @@ h2 {
   color: black;
   background-color: none;
   text-align: center;
+  font-size: 30px;
 }
 p {
   color: blue;
@@ -15,8 +16,13 @@ p {
 }
 ul li {
    background-color: gray;
+   text-align: center;
+   display: inline-block;
+}
+#attractions {
+  padding: 10px;
 }
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
