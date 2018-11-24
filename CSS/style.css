@@ -15,18 +15,28 @@ p {
   font-size: 16px;
 }
 ul li {
-   background-color: gray;
+   background-color: lightblue;
+   margin: 10px;
    text-align: center;
    display: inline-block;
+   padding: 10px 20px;
 }
-#attractions {
-  padding: 10px;
-}
+
 footer {
-  position: relative;
   bottom: 0;
+  float: right;
 }
 
 .img-stpuals {
-  width: 300px
+  width: 100%;
+  padding: 30px 100px;
+}
+.img-buckingham {
+  width: 100%;
+  padding: 30px 100px;
+}
+
+.img-bigben {
+  width: 100%;
+  padding: 30px 100px;
 }
