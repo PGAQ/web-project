@@ -18,6 +18,7 @@ ul li {
    background-color: gray;
    text-align: center;
    display: inline-block;
+   font-style: lobster two;
 }
 #attractions {
   padding: 10px;
@@ -27,6 +28,11 @@ footer {
   bottom: 0;
 }
 
-.img-stpuals {
-  width: 300px
-}
+.img-stpauls {
+
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+
+
+    }
