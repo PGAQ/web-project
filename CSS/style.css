@@ -10,7 +10,7 @@ h2 {
   font-size: 30px;
 }
 p {
-  color: blue;
+  color: Black;
   font-style: Helvetica;
   font-size: 16px;
 }
@@ -24,7 +24,7 @@ ul li {
   padding: 10px;
 }
 footer {
-  position: relative;
+  position: centre;
   bottom: 0;
 }
   .img-stpauls {
