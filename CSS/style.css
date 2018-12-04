@@ -5,30 +5,39 @@ h1 {
 }
 h2 {
   color: black;
-  background-color:  #f2f2f2;
+  background-color: none;
   text-align: center;
   font-size: 30px;
 }
 p {
-  color: Black;
+  color: blue;
   font-style: Helvetica;
   font-size: 16px;
 }
 ul li {
-   background-color:  #f2f2f2;
+   background-color: lightblue;
+   margin: 10px;
    text-align: center;
    display: inline-block;
-   font-style: lobster two;
+   padding: 10px 20px;
 }
-#attractions {
-  padding: 10px;
-}
+
 footer {
-  position: centre;
   bottom: 0;
+  float: right;
 }
-  .img-stpauls {
-    width: 100%;
-    height: auto;
-    padding: 0px 100px;
-    }
+
+.img-stpuals {
+  width: 100%;
+  padding: 30px 100px;
+}
+
+.img-buckingham {
+  width: 100%;
+  padding: 30px 100px;
+}
+
+.img-bigben {
+  width: 100%;
+  padding: 30px 100px;
+}
