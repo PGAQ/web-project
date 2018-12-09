@@ -1,38 +1,95 @@
-h1 {
-  color: black;
-  text-align: center;
-  border: 5px solid black;
-}
-h2 {
-  color: black;
-  background-color: none;
-  text-align: center;
-  font-size: 30px;
+body {
+  background-color:#ffe5e5;
 }
 
-h3 {
+h3
+ {
   color: black;
-
 }
+
+h4 {
+  font-size: 100;
+  color: black;
+  
+}
+
 p {
   color: black;
-  font-style: Helvetica;
+  font-style: ;
   font-size: 16px;
 }
 ul li {
-   background-color: lightblue;
-   margin: 10px;
+   color: gray;
    text-align: center;
    display: inline-block;
-   padding: 10px 20px;
 }
 
 footer {
-  bottom: 0;
   float: right;
 }
 
+
 .imgattraction {
-  width: 100%;
-  padding: 30px 100px;
+  width: 60%;
+  padding: 20px 100px;
+
+  }
+
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.container span{
+  color: gray;
+  text transform: uppercase;
+  display: block
+}
+
+.text1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: black
+  position: relative;
+  animation: text 5s 1;
+}
+.text2{
+  font-size: 30px;
+  text-align: center;
+}
+
+@keyframes text {
+  0%{
+    color: #ffb3d1;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+      }
+85%{
+  letter-spacing: 8px;
+  margin-bottom: -40px;
 }
